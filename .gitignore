@@ -45,3 +45,8 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 _deps
+
+# Ninja Files
+.ninja_deps
+.ninja_log
+build.ninja
