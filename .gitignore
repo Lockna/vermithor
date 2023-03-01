@@ -30,8 +30,7 @@
 *.exe
 *.out
 *.app
-/vermithor
-src/vermithor/vermithor
+vermithor
 
 # CMake files
 CMakeLists.txt.user

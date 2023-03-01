@@ -7,4 +7,5 @@ project(Vermithor
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_subdirectory(src/vermithor)
+add_subdirectory(src)
+target_include_directories(vermithor PUBLIC src)
