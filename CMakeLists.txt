@@ -7,5 +7,4 @@ project(Vermithor
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_subdirectory(src)
-target_include_directories(vermithor PUBLIC src)
+add_executable(vermithor source/main.cpp)
